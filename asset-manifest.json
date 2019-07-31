@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RickandMortyClickyGame/static/css/main.954524cb.chunk.css",
+    "main.js": "/RickandMortyClickyGame/static/js/main.ed9dea56.chunk.js",
+    "main.js.map": "/RickandMortyClickyGame/static/js/main.ed9dea56.chunk.js.map",
+    "runtime~main.js": "/RickandMortyClickyGame/static/js/runtime~main.707b8f3a.js",
+    "runtime~main.js.map": "/RickandMortyClickyGame/static/js/runtime~main.707b8f3a.js.map",
+    "static/js/2.8fa3d35f.chunk.js": "/RickandMortyClickyGame/static/js/2.8fa3d35f.chunk.js",
+    "static/js/2.8fa3d35f.chunk.js.map": "/RickandMortyClickyGame/static/js/2.8fa3d35f.chunk.js.map",
+    "index.html": "/RickandMortyClickyGame/index.html",
+    "precache-manifest.e082edac5ed229d466a9af5a4f855b85.js": "/RickandMortyClickyGame/precache-manifest.e082edac5ed229d466a9af5a4f855b85.js",
+    "service-worker.js": "/RickandMortyClickyGame/service-worker.js",
+    "static/css/main.954524cb.chunk.css.map": "/RickandMortyClickyGame/static/css/main.954524cb.chunk.css.map",
+    "static/media/logo.svg": "/RickandMortyClickyGame/static/media/logo.5d5d9eef.svg"
+  }
+}
