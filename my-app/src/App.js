@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import PictureCard from "./components/PictureCard";
 import Wrapper from "./components/Wrapper";
@@ -12,7 +12,7 @@ class App extends Component {
     clickedArray: [],
     topScore: 0,
     score: 0,
-    message: "",
+    // message: "",
     shakeit: "false"
   };
   clickPicture = id => {
@@ -21,13 +21,13 @@ class App extends Component {
     this.setState({cards: shuffledArray});
     // if clicked an image already clicked set this.state.score = 0; empty clickeadArray, end of if block
     if (this.state.clickedArray.includes(id)) {
-      this.setState({ score: 0, clickedArray: [], message: "Congratulations. You're dumber than Jerry.", shakeit: "true"});
+      this.setState({ score: 0, clickedArray: [], /*message: "Congratulations. You're dumber than Jerry.",*/ shakeit: "true"});
     }
     else {
       this.setState({
         clickedArray: this.state.clickedArray.concat([id]),
         score: this.state.score + 1,
-        message: "Woah there buddy. Keep going and you might beat Morty's high score.",
+        /*message: "Woah there buddy. Keep going and you might beat Morty's high score.",*/
         shakeit: "false"
       });
     }
@@ -47,12 +47,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Clicky Clicky 1000 TIMES CLICKY!!!</h1>
-        </header>
+        </header> */}
         <h3 className="App-intro">
-          <strong>To play, just click on each unique image once. Click the same image twice and you lose. It's so simple even a Morty could play.</strong> 
+          <strong>Avoid clicking the same image twice.</strong> 
           <p className = "score"><strong>Score: {this.state.score} | TopScore: {this.state.topScore}</strong></p>
           <p className="message"><strong>{this.state.message}</strong></p>
         </h3>
